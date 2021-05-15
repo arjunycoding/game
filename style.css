@@ -1,0 +1,62 @@
+.login{
+    background-color: rgba(0, 0, 0, 0.577);
+    padding:10px;
+    color: white;
+}@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: chocolate;
+    font-family: 'Wellfleet' ,'arial';
+}
+.board{
+    background-color: #425a5a;
+    border: 15px solid #523620;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    height: 50%;
+    width: 50%;
+    float:center;
+    text-align: center;
+    color:white;
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin: 70px auto 10px auto;
+}
+
+button{
+    color:white;
+    background-color:tan;
+    border:none;
+    transition-property: background-color;
+    transition-duration: 750ms;
+    border-radius: 5px;
+    width:80px;
+    padding:10px;
+}
+button:hover{
+    color:white;
+    background-color:peru;
+    border:none;
+}
+
+input:focus{
+    border: 1px double peachpuff !important;
+    box-shadow: 0 0 3px #1670BE;
+}
+input{
+    width:250px!important;
+    background-color:white !important;
+}
+
+#blank{
+    color:lightGrey;
+}
+#blank2{
+    color:lightGrey;
+}  
+.heading{
+    text-align: center;
+}
